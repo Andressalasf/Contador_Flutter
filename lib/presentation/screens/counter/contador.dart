@@ -34,7 +34,7 @@ changeState(int valor){
       ),
       floatingActionButton: Column(
         mainAxisAlignment: MainAxisAlignment.end,
-
+        
         children: [
           
           FloatingActionButton(onPressed: () => changeState(1),

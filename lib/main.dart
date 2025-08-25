@@ -1,4 +1,7 @@
-import 'package:demo/presentation/screens/counter/contador.dart';
+//import 'package:demo/presentation/screens/counter/contador.dart';
+import 'package:demo/presentation/screens/components/button.dart';
+import 'package:demo/presentation/screens/components/textfield.dart';
+//import 'package:demo/presentation/screens/exercise.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Contador()
+      home: Scaffold(
+        body: ButtonExample(),
+      )
     );
 
   }
